@@ -1,0 +1,23 @@
+{
+    "fields": {
+       "project":
+       {
+          "key": "ENTMQIC"
+       },
+       "parent":
+       {
+          "key": "${PARENT_TASK}"
+       },
+       "summary": "${SUMMARY}",
+       "description": "${DESCRIPTION}",
+       "issuetype": {
+          "name": "Sub-task"
+       },
+       "customfield_12311240": {
+          "name": "1.5.1.GA"
+       },
+       "timetracking": {
+          "originalEstimate": "${ESTIMATE}"
+       }
+   }
+}

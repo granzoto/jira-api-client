@@ -1,0 +1,18 @@
+{
+    "fields": {
+       "project":
+       {
+          "key": "MSGQE"
+       },
+       "summary": "${SUMMARY}",
+       "customfield_12311140": "${PARENT_TASK}",
+       "description": "${DESCRIPTION}",
+       "issuetype": {
+          "name": "Task"
+       },
+       "components": [{
+          "name": "Interconnect"
+       }]
+   }
+}
+

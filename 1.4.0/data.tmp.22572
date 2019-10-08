@@ -1,0 +1,26 @@
+{
+    "fields": {
+       "project":
+       {
+          "key": "MSGQE"
+       },
+       "parent":
+       {
+          "key": "MSGQE-6425"
+       },
+       "summary": "Create manual test case documentation for Interconnect Operator (Polarion)",
+       "description": "Document manual test case for validating Interconnect Operator.\nAdd all planned steps and review internally.",
+       "issuetype": {
+          "name": "Sub-task"
+       },
+       "fixVersions": [{
+          "name": "AMQ IC 1.4.0"
+       }],
+       "timetracking": {
+          "originalEstimate": "2h"
+       },
+       "components": [{
+          "name": "Interconnect"
+       }]
+   }
+}

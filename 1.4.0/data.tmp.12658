@@ -1,0 +1,26 @@
+{
+    "fields": {
+       "project":
+       {
+          "key": "MSGQE"
+       },
+       "parent":
+       {
+          "key": "MSGQE-6423"
+       },
+       "summary": "Investigate issues with Address Translation tests failing with external clients",
+       "description": "Clients used by Address Translation test are failing sometimes.\nWe need to investigate root cause and provide fix.",
+       "issuetype": {
+          "name": "Sub-task"
+       },
+       "fixVersions": [{
+          "name": "AMQ IC 1.4.0"
+       }],
+       "timetracking": {
+          "originalEstimate": "6h"
+       },
+       "components": [{
+          "name": "Interconnect"
+       }]
+   }
+}

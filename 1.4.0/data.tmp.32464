@@ -1,0 +1,19 @@
+{
+    "fields": {
+       "project":
+       {
+          "key": "MSGQE"
+       },
+       "summary": "TPS Tests",
+       "description": "- Run TPS Tests\n- Run DistQA-TPS tests",
+       "issuetype": {
+          "name": "Task"
+       },
+       "fixVersions": [{
+          "name": "AMQ IC 1.4.0"
+       }],
+       "components": [{
+          "name": "Interconnect"
+       }]
+   }
+}

@@ -1,0 +1,23 @@
+{
+    "fields": {
+       "project":
+       {
+          "key": "MSGQE"
+       },
+       "parent":
+       {
+          "key": "MSGQE-6421"
+       },
+       "summary": "Modify Openshift Smoke tests and Integration Tests to trigger reporter job",
+       "description": "Modify JJB templates for jobs:\n- amq-interconnect-integration-int_3Ri_2BhaRi2_3Re_2BhaRe3.yml\n- amq-interconnect-openshift-smoketests.yml\nAnd add trigger for polarion-junit-reporter providing all required parameters.",
+       "issuetype": {
+          "name": "Sub-task"
+       },
+       "fixVersions": [{
+          "name": "AMQ IC 1.4.0"
+       }],
+       "components": [{
+          "name": "Interconnect"
+       }]
+   }
+}

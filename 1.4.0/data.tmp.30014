@@ -1,0 +1,19 @@
+{
+    "fields": {
+       "project":
+       {
+          "key": "MSGQE"
+       },
+       "summary": "Performance tests preparation",
+       "description": "Prepare for testing Interconnect 1.4.0.\nQE must prepare environment, adjust or create new jobs so when 1.4.0 packages/image are delivered to QE we have the ability to run performance tests against it.",
+       "issuetype": {
+          "name": "Task"
+       },
+       "fixVersions": [{
+          "name": "AMQ IC 1.4.0"
+       }],
+       "components": [{
+          "name": "Interconnect"
+       }]
+   }
+}

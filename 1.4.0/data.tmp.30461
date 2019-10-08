@@ -1,0 +1,19 @@
+{
+    "fields": {
+       "project":
+       {
+          "key": "MSGQE"
+       },
+       "summary": "CR1 - Adjust existing jobs to test initial delivery of 1.4.0 to QE",
+       "description": "- Create OpenStack images for provided RPM packages (RHEL6i, RHEL6x, RHEL7x and RHEL8x)\n- Update existing Jenkins Job Templates to consume latest Openstack Images\n- Execute tests\n- Review results and report issues accordingly",
+       "issuetype": {
+          "name": "Task"
+       },
+       "fixVersions": [{
+          "name": "AMQ IC 1.4.0"
+       }],
+       "components": [{
+          "name": "Interconnect"
+       }]
+   }
+}

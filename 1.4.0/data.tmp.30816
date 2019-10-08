@@ -1,0 +1,19 @@
+{
+    "fields": {
+       "project":
+       {
+          "key": "MSGQE"
+       },
+       "summary": "Test Multicast SLA",
+       "description": "QE team needs to review requirements defined in Multicast SLA Epic (or one of its tasks) and then:\n- Design a test plan to review the enhancement\n- Review test plan with QE and Engineering\n- Modify existing multicast tests (if any is impacted)\n- Implement new tests",
+       "issuetype": {
+          "name": "Task"
+       },
+       "fixVersions": [{
+          "name": "AMQ IC 1.4.0"
+       }],
+       "components": [{
+          "name": "Interconnect"
+       }]
+   }
+}

@@ -1,0 +1,19 @@
+{
+    "fields": {
+       "project":
+       {
+          "key": "MSGQE"
+       },
+       "summary": "Interconnect Operators on OCP",
+       "description": "- Learn more about Operators on Kubernetes\n- Read material shared by Andy Smith with Engineering team deliverables\n- Design automated test changes (possibly just a new deployment for existing Openshift smoke tests)\n- Modify deployment and adjust existing jobs",
+       "issuetype": {
+          "name": "Task"
+       },
+       "fixVersions": [{
+          "name": "AMQ IC 1.4.0"
+       }],
+       "components": [{
+          "name": "Interconnect"
+       }]
+   }
+}

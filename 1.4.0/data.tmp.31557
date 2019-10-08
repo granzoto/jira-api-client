@@ -1,0 +1,19 @@
+{
+    "fields": {
+       "project":
+       {
+          "key": "MSGQE"
+       },
+       "summary": "System tests against master and 1.4.0",
+       "description": "Prepare static RHEV nodes and ensure System test jobs are running against CR1.\n- Create mrgrepo for 1.4.0 RPMs\n- Install new repositories on RHEV nodes\n- Adjust job templates as needed\n- Review system tests and report issues accordingly",
+       "issuetype": {
+          "name": "Task"
+       },
+       "fixVersions": [{
+          "name": "AMQ IC 1.4.0"
+       }],
+       "components": [{
+          "name": "Interconnect"
+       }]
+   }
+}

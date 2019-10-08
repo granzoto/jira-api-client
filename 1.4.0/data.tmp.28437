@@ -1,0 +1,19 @@
+{
+    "fields": {
+       "project":
+       {
+          "key": "MSGQE"
+       },
+       "summary": "Prepare OCP clusters with 3.11 and 4.0",
+       "description": "Upgrade existing OCP clusters or define a working mechanism to spawn OCP clusters for Interconnect tests.\nInterconnect QE team needs to test against versions: 3.11 and 4.0.",
+       "issuetype": {
+          "name": "Task"
+       },
+       "fixVersions": [{
+          "name": "AMQ IC 1.4.0"
+       }],
+       "components": [{
+          "name": "Interconnect"
+       }]
+   }
+}

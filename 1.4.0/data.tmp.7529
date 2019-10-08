@@ -1,0 +1,26 @@
+{
+    "fields": {
+       "project":
+       {
+          "key": "MSGQE"
+       },
+       "parent":
+       {
+          "key": "MSGQE-6426"
+       },
+       "summary": "Create Packer build scripts to generate Interconnect 1.4.0 CR1 images",
+       "description": "Create Packer build scripts to generate OpenStack images for 1.4.0 CR1 packages for the following platforms and architectures:\n* RHEL6 i686\n* RHEL6 x86_64\n* RHEL7 x86_64\n* RHEL8 x86_64",
+       "issuetype": {
+          "name": "Sub-task"
+       },
+       "fixVersions": [{
+          "name": "AMQ IC 1.4.0"
+       }],
+       "timetracking": {
+          "originalEstimate": "3d"
+       },
+       "components": [{
+          "name": "Interconnect"
+       }]
+   }
+}

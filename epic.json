@@ -1,0 +1,18 @@
+{
+    "fields": {
+       "project":
+       {
+          "key": "MSGQE"
+       },
+       "summary": "${SUMMARY}",
+       "customfield_12311141": "Interconnect2019",
+       "description": "${DESCRIPTION}",
+       "issuetype": {
+          "name": "Epic"
+       },
+       "components": [{
+          "name": "Interconnect"
+       }]
+   }
+}
+

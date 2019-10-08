@@ -1,0 +1,19 @@
+{
+    "fields": {
+       "project":
+       {
+          "key": "MSGQE"
+       },
+       "summary": "Documentation testing",
+       "description": "QE needs to review all documentation changes (since we do not know yet what exactly is supposed to change).\nNext QE team needs to perform manual tests that validates all changes in documentation (further updates to be available as soon as we have an initial plan).",
+       "issuetype": {
+          "name": "Task"
+       },
+       "fixVersions": [{
+          "name": "AMQ IC 1.4.0"
+       }],
+       "components": [{
+          "name": "Interconnect"
+       }]
+   }
+}

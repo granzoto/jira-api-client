@@ -1,0 +1,19 @@
+{
+    "fields": {
+       "project":
+       {
+          "key": "MSGQE"
+       },
+       "summary": "Investigate and fix issues with existing automated tests",
+       "description": "Existing tests on iqa-testsuite are currently failing when executing external clients (cli-proton-python and cli-rhea).\nWe need to research and fix the root cause so all existing tests get back to a &quot;passing&quot; condition.",
+       "issuetype": {
+          "name": "Task"
+       },
+       "fixVersions": [{
+          "name": "AMQ IC 1.4.0"
+       }],
+       "components": [{
+          "name": "Interconnect"
+       }]
+   }
+}

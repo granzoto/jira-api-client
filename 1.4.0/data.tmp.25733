@@ -1,0 +1,26 @@
+{
+    "fields": {
+       "project":
+       {
+          "key": "MSGQE"
+       },
+       "parent":
+       {
+          "key": "MSGQE-6435"
+       },
+       "summary": "Create a sign-off document for 1.4.0 release of Interconnect",
+       "description": "Create a sign-off document stating everything QE was able to test and\nitems that have not been tested.",
+       "issuetype": {
+          "name": "Sub-task"
+       },
+       "fixVersions": [{
+          "name": "AMQ IC 1.4.0"
+       }],
+       "timetracking": {
+          "originalEstimate": "2h"
+       },
+       "components": [{
+          "name": "Interconnect"
+       }]
+   }
+}

@@ -1,0 +1,19 @@
+{
+    "fields": {
+       "project":
+       {
+          "key": "MSGQE"
+       },
+       "summary": "Test Logging and Management Enhancements",
+       "description": "Interconnect QE has to perform manual tests on CR1 for 1.4.0 and review:\n- Logging changes (as provided in requirements)\n- Management enhancements",
+       "issuetype": {
+          "name": "Task"
+       },
+       "fixVersions": [{
+          "name": "AMQ IC 1.4.0"
+       }],
+       "components": [{
+          "name": "Interconnect"
+       }]
+   }
+}

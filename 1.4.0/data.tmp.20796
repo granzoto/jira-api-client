@@ -1,0 +1,26 @@
+{
+    "fields": {
+       "project":
+       {
+          "key": "MSGQE"
+       },
+       "parent":
+       {
+          "key": "MSGQE-6425"
+       },
+       "summary": "Create a short and long-term test plan for testing Interconnect Operators",
+       "description": "Preare an initial test plan that aims to test Interconnect Operators in short and long terms.\nShort term plan should be covered during 1.4.0 testing period and Long term must include future (not part of GA) testing items.\n\nDefine Jiras using fixVersion &quot;AMQ IC 1.4.0&quot; for short-term test execution (or implementation) and Jiras without any fixVersion for long-term activities.",
+       "issuetype": {
+          "name": "Sub-task"
+       },
+       "fixVersions": [{
+          "name": "AMQ IC 1.4.0"
+       }],
+       "timetracking": {
+          "originalEstimate": "8h"
+       },
+       "components": [{
+          "name": "Interconnect"
+       }]
+   }
+}

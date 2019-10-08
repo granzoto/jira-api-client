@@ -1,0 +1,19 @@
+{
+    "fields": {
+       "project":
+       {
+          "key": "MSGQE"
+       },
+       "summary": "${SUMMARY}",
+       "description": "${DESCRIPTION}",
+       "issuetype": {
+          "name": "Task"
+       },
+       "components": [{
+          "name": "Interconnect"
+       }, {
+          "name": "test-dev"
+       }]
+   }
+}
+

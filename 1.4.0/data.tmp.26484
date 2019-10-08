@@ -1,0 +1,19 @@
+{
+    "fields": {
+       "project":
+       {
+          "key": "MSGQE"
+       },
+       "summary": "Create metadata for existing test cases and report results to Polarion",
+       "description": "- Document all test cases for existing tests\n- Export test cases to Polarion\n- Modify existing jobs to include reporting phase to Polarion\n- Review results being reported correctly",
+       "issuetype": {
+          "name": "Task"
+       },
+       "fixVersions": [{
+          "name": "AMQ IC 1.4.0"
+       }],
+       "components": [{
+          "name": "Interconnect"
+       }]
+   }
+}

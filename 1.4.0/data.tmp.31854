@@ -1,0 +1,19 @@
+{
+    "fields": {
+       "project":
+       {
+          "key": "MSGQE"
+       },
+       "summary": "Review OpenShift Smoke tests against OCP 3.10, 3.11 and 4.0",
+       "description": "Make sure existing Smoke tests are being executed against 3.10, 3.11 and 4.0.\nThis includes making necessary changes to spawn/destroy nodes.",
+       "issuetype": {
+          "name": "Task"
+       },
+       "fixVersions": [{
+          "name": "AMQ IC 1.4.0"
+       }],
+       "components": [{
+          "name": "Interconnect"
+       }]
+   }
+}

@@ -1,0 +1,19 @@
+{
+    "fields": {
+       "project":
+       {
+          "key": "MSGQE"
+       },
+       "summary": "TCK Tests",
+       "description": "- Create nodes to run TCK tests\n- Update Router and Broker instances on such nodes\n- Manually test nodes are working (exchange messages)\n- Update CI jobs to use new nodes\n- Execute tests\n- Collect and report results to Sign-Off document",
+       "issuetype": {
+          "name": "Task"
+       },
+       "fixVersions": [{
+          "name": "AMQ IC 1.4.0"
+       }],
+       "components": [{
+          "name": "Interconnect"
+       }]
+   }
+}
