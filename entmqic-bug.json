@@ -1,0 +1,13 @@
+{
+    "fields": {
+       "project":
+       {
+          "key": "ENTMQIC"
+       },
+       "summary": "${SUMMARY}",
+       "description": "${DESCRIPTION}",
+       "issuetype": {
+          "name": "Bug"
+       }
+   }
+}

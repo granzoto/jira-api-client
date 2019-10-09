@@ -9,6 +9,9 @@
        "issuetype": {
           "name": "Task"
        },
+       "assignee": {
+          "name": ""
+       },
        "components": [{
           "name": "Interconnect"
        }]

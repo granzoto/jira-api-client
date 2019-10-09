@@ -16,6 +16,9 @@
        "timetracking": {
           "originalEstimate": "${ESTIMATE}"
        },
+       "assignee": {
+          "name": ""
+       },
        "components": [{
           "name": "Interconnect"
        }]
