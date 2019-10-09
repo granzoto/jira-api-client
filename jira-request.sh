@@ -4,17 +4,22 @@
 
 FILE=$1
 JIRA_HOST="issues.jboss.org"
-USER='fgiorget'
+#JIRA_USER=""
+#JIRA_PASS=""
 #API_TOKEN=""
-JIRA_PASS=""
 TMPDIR="/tmp"
 
 # expects file as 1st arg
 [[ ! -f $FILE ]] && echo Use $0 json_file && exit 1
 
+while [[ -z ${JIRA_USER} ]]; do
+    echo "JIRA_USER variable not set, please type Jira user: "
+    read JIRA_USER
+done
+# read pass if not set
 if [[ -z ${API_TOKEN} && -z ${JIRA_PASS} ]]; then
     while [[ -z ${JIRA_PASS} ]]; do
-        echo "JIRA_PASS variable not set, please type Jira password for [${USER}]: "
+        echo "JIRA_PASS variable not set, please type Jira password for [${JIRA_USER}]: "
         read -s JIRA_PASS
     done
 fi
@@ -62,8 +67,8 @@ function create_issue() {
 	eval echo \""${content//\"/\\\"}"\" > ${TMPDIR}/data.tmp.$$
 	
 	# invoke it
-    #AUTH_ARG="-u \"${USER}:${JIRA_PASS}\""
-    AUTH_ARG="-u \\\"${USER}:${JIRA_PASS}\\\""
+    #AUTH_ARG="-u \"${JIRA_USER}:${JIRA_PASS}\""
+    AUTH_ARG="-u \\\"${JIRA_USER}:${JIRA_PASS}\\\""
     if [[ -n ${API_TOKEN} ]]; then
         #AUTH_ARG="--header \"Authorization: Bearer ${API_TOKEN}\""
         AUTH_ARG="--header \\\"Authorization: Bearer ${API_TOKEN}\\\""
