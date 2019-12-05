@@ -5,10 +5,13 @@
           "key": "MSGQE"
        },
        "summary": "${SUMMARY}",
-       "customfield_12311141": "Interconnect2019",
+       "customfield_12311141": "Epic Name Goes Here",
        "description": "${DESCRIPTION}",
        "issuetype": {
           "name": "Epic"
+       },
+       "assignee": {
+          "name": ""
        },
        "components": [{
           "name": "Interconnect"

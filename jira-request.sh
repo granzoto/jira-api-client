@@ -3,7 +3,7 @@
 . read_var.sh
 
 FILE=$1
-JIRA_HOST="issues.jboss.org"
+JIRA_HOST="issues.redhat.com"
 #JIRA_USER=""
 #JIRA_PASS=""
 #API_TOKEN=""
