@@ -5,7 +5,7 @@
           "key": "MSGQE"
        },
        "summary": "${SUMMARY}",
-       "customfield_12311141": "Epic Name Goes Here",
+       "customfield_12311141": "Simulated Customer Environment Provisioning",
        "description": "${DESCRIPTION}",
        "issuetype": {
           "name": "Epic"
