@@ -83,8 +83,6 @@ function create_issue() {
         fi
         echo "Jira has been created: https://${JIRA_HOST}/browse/${JIRA}"
     done        
-	
-    echo
 
 }
 
@@ -108,4 +106,4 @@ for line in `tail -n +2 ${CSVFILE}`; do
     create_issue
 
 done
-
+echo
