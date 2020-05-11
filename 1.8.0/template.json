@@ -1,0 +1,23 @@
+{
+    "fields": {
+       "project":
+       {
+          "key": "MSGQE"
+       },
+       "summary": "${SUMMARY}",
+       "description": "${DESCRIPTION}",
+       "assignee": {
+          "name": ""
+       },
+       "issuetype": {
+          "name": "Task"
+       },
+       "fixVersions": [{
+          "name": "AMQ IC 1.8.0"
+       }],
+       "components": [{
+          "name": "Interconnect"
+       }]
+   }
+}
+

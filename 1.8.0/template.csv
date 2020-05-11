@@ -1,0 +1,6 @@
+SUMMARY,DESCRIPTION
+Create mrgrepo entry for 1.8.0,Run mrgjenkins job to create the mrgrepo entry.\nSee the document below for further reference: https://docs.google.com/document/d/1dIjdSdU0sIZ7QVQLcgysiIwm-BJJZ83mePyykbm11Dw/edit
+Adjust job dsl on amq-ci to consume latest image tag 1.8,Adjust job dsl on amq-ci to consume latest image tag 1.8
+Execute TPS tests for AMQ IC 1.8,Execute TPS tests and make sure all tests are passing (or properly waived)
+Execute Regression Tests,Regression tests must be executed through the CI and results validated. See sub-tasks for complete list of tests to be executed.
+Manual test execution for Interconnect 1.8.0,Manual test execution list to be added as sub-tasks.

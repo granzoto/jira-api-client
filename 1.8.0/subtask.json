@@ -1,0 +1,29 @@
+{
+    "fields": {
+       "project":
+       {
+          "key": "MSGQE"
+       },
+       "parent":
+       {
+          "key": "${PARENT_TASK}"
+       },
+       "summary": "${SUMMARY}",
+       "description": "${DESCRIPTION}",
+       "assignee": {
+          "name": ""
+       },
+       "issuetype": {
+          "name": "Sub-task"
+       },
+       "fixVersions": [{
+          "name": "AMQ IC 1.8.0"
+       }],
+       "timetracking": {
+          "originalEstimate": "${ESTIMATE}"
+       },
+       "components": [{
+          "name": "Interconnect"
+       }]
+   }
+}
