@@ -92,6 +92,9 @@ function create_issue() {
 IFS=$'\n'
 for line in `tail -n +2 ${CSVFILE}`; do
 
+    # Ignoring comments
+    [[ $line =~ ^# ]] && continue
+
     # Reading CSV data
     IFS=',' read -r -a CSV_VALUES <<< ${line}
 
