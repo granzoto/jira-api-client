@@ -6,6 +6,7 @@
        },
        "summary": "${SUMMARY}",
        "description": "${DESCRIPTION}",
+       "customfield_12310940": 13684,
        "assignee": {
           "name": ""
        },
