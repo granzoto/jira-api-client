@@ -5,7 +5,7 @@
           "key": "ENTMQIC"
        },
        "summary": "${SUMMARY}",
-       "description": "${DESCRIPTION}",
+       "description": "${EDITBOX_DESCRIPTION}",
        "issuetype": {
           "name": "Bug"
        }

@@ -9,7 +9,7 @@
           "key": "${PARENT_TASK}"
        },
        "summary": "${SUMMARY}",
-       "description": "${DESCRIPTION}",
+       "description": "${EDITBOX_DESCRIPTION}",
        "issuetype": {
           "name": "Sub-task"
        },

@@ -5,7 +5,7 @@
           "key": "MSGQE"
        },
        "summary": "${SUMMARY}",
-       "description": "${DESCRIPTION}",
+       "description": "${EDITBOX_DESCRIPTION}",
        "issuetype": {
           "name": "Task"
        },

@@ -9,6 +9,12 @@ JIRA_HOST="issues.redhat.com"
 #API_TOKEN=""
 TMPDIR="/tmp"
 
+# sanity check
+if [[ -z `which dialog 2> /dev/null` ]]; then
+    echo "You must install 'dialog' before proceeding"
+    exit 1
+fi
+
 # expects file as 1st arg
 [[ ! -f $FILE ]] && echo Use $0 json_file && exit 1
 
@@ -30,40 +36,63 @@ subtask=false
 
 if [[ $subtask = true ]]; then
     read_var PARENT_TASK "Parent task" true
+    export PARENT_TASK
 fi
 
 # create a new issue on Jira
 function create_issue() {
 
+    # extracting variables from template
+    content=`cat $FILE`
+    template_vars=`envsubst -v "${content}"`
+    vars_populated=()
+
+    # if a parent task already provided, add it to vars_populated
+    [[ -n ${PARENT_TASK} ]] && vars_populated+=(PARENT_TASK)
+
 	# enter input till user is happy
 	confirm=false
 	while [[ $confirm = false ]]; do
-		read_var SUMMARY "Summary" true
-		
-		echo "Description (press ctrl+d when done):"
-		DESCRIPTION=$(</dev/stdin)
-		DESCRIPTION="${DESCRIPTION//\"/&quot;}"
-		DESCRIPTION="${DESCRIPTION//$'\n'/\\n}"
-		
-        if [[ $subtask = true ]]; then
-            read_var ESTIMATE "Estimate" true
-        fi
+        touch /tmp/empty.$$
 
-		echo "Summary is: $SUMMARY"
-		echo "Description is:"
-		echo "$DESCRIPTION"
-	
-        if [[ $subtask = true ]]; then
-            echo "Estimate: $ESTIMATE"
-        fi
+        for variable in ${template_vars}; do
+            # Ignoring variables already parsed
+            if [[ " ${vars_populated[@]} " =~ " ${variable} " ]]; then
+                continue
+            fi
+            touch /tmp/$variable.$$
+            echo Reading $variable
+            if [[ ${variable} =~ ^EDITBOX_.*$ ]]; then
+                dialog --title "${variable:8} - using template: $FILE" --clear --editbox /tmp/empty.$$ 16 51  2> /tmp/$variable.$$
+            else
+                dialog --title "${variable} - using template: $FILE" --clear --inputbox "" 16 51  2> /tmp/$variable.$$
+            fi
+            if [[ $? -ne 0 ]]; then
+                clear
+                echo "Cancelled by user. Exiting."
+                exit 0
+            fi
+            # replacing \n with literal '\n'
+            sed -E -i ':a;N;$!ba;s/\r{0,1}\n/\\n/g' /tmp/$variable.$$
+            # replacing " with literal &quot;
+            sed -i 's/"/\&quot;/g' /tmp/$variable.$$
+            eval export $variable=\$\(cat /tmp/$variable.$$\)
+            vars_populated+=(${variable})
+            # if a parent task already provided, add it to vars_populated
+            [[ -n ${PARENT_TASK} ]] && vars_populated+=(PARENT_TASK)
+        done
 
-	    echo
-	    read_var PROCEED "Are you good with the summary and description?" true 'y' 'y' 'n' 
-	    [[ ${PROCEED,,} = 'y' ]] && confirm=true
+        clear
+        echo Review the JIRA request content:
+        echo
+        cat "${FILE}" | envsubst
+        echo
+        
+	    read_var PROCEED "Are you good with the content?" true 'y' 'y' 'n' 
+	    [[ ${PROCEED,,} = 'y' ]] && confirm=true || vars_populated=()
 	done
 	
-	
-	content="$(cat $FILE)"
+	content="$(cat $FILE | envsubst)"
 	eval echo \""${content//\"/\\\"}"\" > ${TMPDIR}/data.tmp.$$
 	
 	# invoke it

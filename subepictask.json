@@ -6,7 +6,7 @@
        },
        "summary": "${SUMMARY}",
        "customfield_12311140": "${PARENT_TASK}",
-       "description": "${DESCRIPTION}",
+       "description": "${EDITBOX_DESCRIPTION}",
        "issuetype": {
           "name": "Task"
        },

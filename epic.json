@@ -6,7 +6,7 @@
        },
        "summary": "${SUMMARY}",
        "customfield_12311141": "Simulated Customer Environment Provisioning",
-       "description": "${DESCRIPTION}",
+       "description": "${EDITBOX_DESCRIPTION}",
        "issuetype": {
           "name": "Epic"
        },
