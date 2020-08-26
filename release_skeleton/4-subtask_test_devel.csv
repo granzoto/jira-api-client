@@ -1,0 +1,4 @@
+PARENT_TASK,SUMMARY,ESTIMATE,DESCRIPTION
+JIRAID,Prepare base test suite for Interconnect on K8S and OCP,Create a suite that does not use the operator and use same k8s client api version used by Skupper.
+JIRAID,Automate test to verify customer case for qdrouterd double-free,Create an automated test to verify issue reported through ENTMQIC-2457.\nSee attached reproducer for reference.
+JIRAID,JMS transaction test with Router and Broker,New automated test to verify JMS transactions in a Router-Broker scenario.\nWe have a sample JMS app that can be put into a container image and ran against a Router/Broker deployment on OCP.
