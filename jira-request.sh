@@ -63,9 +63,9 @@ function create_issue() {
             touch /tmp/$variable.$$
             echo Reading $variable
             if [[ ${variable} =~ ^EDITBOX_.*$ ]]; then
-                dialog --title "${variable:8} - using template: $FILE" --clear --editbox /tmp/empty.$$ 16 51  2> /tmp/$variable.$$
+                dialog --title "${variable:8} - using template: $FILE" --clear --editbox /tmp/empty.$$ 16 80  2> /tmp/$variable.$$
             else
-                dialog --title "${variable} - using template: $FILE" --clear --inputbox "" 16 51  2> /tmp/$variable.$$
+                dialog --title "${variable} - using template: $FILE" --clear --inputbox "" 16 80  2> /tmp/$variable.$$
             fi
             if [[ $? -ne 0 ]]; then
                 clear
