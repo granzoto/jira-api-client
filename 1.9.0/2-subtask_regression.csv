@@ -1,0 +1,5 @@
+PARENT_TASK,SUMMARY,ESTIMATE,DESCRIPTION
+ENTMQIC-2506,System tests execution,2d,Execute system tests against:\n*RHEL 6 i686\n* RHEL 6 x86_64\n* RHEL 7 x86_64\n* RHEL 8 x86_64
+ENTMQIC-2506,Qpid Dispatch Integration Tests,2d,,Execute system tests against:\n*RHEL 6 i686\n* RHEL 6 x86_64\n* RHEL 7 x86_64\n* RHEL 8 x86_64
+ENTMQIC-2506,Qpid Dispatch Openshift Smoke Tests,2d,Execute Qpid Dispatch Openshift Smoke Tests against supported versions (current and current -1).
+ENTMQIC-2506,QDR Operator E2E Tests,1d,Execute QDR Operator E2E Tests against supported versions (current and current -1).

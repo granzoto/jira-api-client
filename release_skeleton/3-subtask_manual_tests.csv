@@ -1,0 +1,4 @@
+PARENT_TASK,SUMMARY,ESTIMATE,DESCRIPTION
+JIRAID,Interoperability test - manual_tests.interconnect.interoperability.router.test_interiors_RA_latest_RB_latest1,4h,Execute manual test\nhttps://polarion.engineering.redhat.com/polarion/redirect/project/ENTMQIC/workitem?id=ENTMQIC-627
+JIRAID,Interoperability test - manual_tests.interconnect.interoperability.router.test_interiors_RA_latest_senderAL2_RB_latest1_receiverBL1,4h,Execute manual test\nhttps://polarion.engineering.redhat.com/polarion/redirect/project/ENTMQIC/workitem?id=ENTMQIC-628
+JIRAID,Qpid Dispatch Console - manual_tests.interconnect.qpid-dispatch-console,4h,Execute all manual test cases with prefix: manual_tests.interconnect.qpid-dispatch-console

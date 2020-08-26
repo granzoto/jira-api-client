@@ -1,0 +1,4 @@
+PARENT_TASK,SUMMARY,ESTIMATE,DESCRIPTION
+ENTMQIC-2508,Prepare base test suite for Interconnect on K8S and OCP,10d,Create a suite that does not use the operator and use same k8s client api version used by Skupper.
+ENTMQIC-2508,Automate test to verify customer case for qdrouterd double-free,2d,Create an automated test to verify issue reported through ENTMQIC-2457.\nSee attached reproducer for reference.
+ENTMQIC-2508,JMS transaction test with Router and Broker,2d,New automated test to verify JMS transactions in a Router-Broker scenario.\nWe have a sample JMS app that can be put into a container image and ran against a Router/Broker deployment on OCP.
