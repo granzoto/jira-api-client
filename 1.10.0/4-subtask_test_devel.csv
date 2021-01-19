@@ -1,0 +1,2 @@
+PARENT_TASK,SUMMARY,ESTIMATE,DESCRIPTION
+ENTMQIC-2641,Create a new job to run qdr-image test suite against OpenShift,2d,Create a new job to run qdr-image test suite against OpenShift (current and current-1)
