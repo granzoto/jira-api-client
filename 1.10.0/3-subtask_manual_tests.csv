@@ -1,0 +1,2 @@
+PARENT_TASK,SUMMARY,ESTIMATE,DESCRIPTION
+ENTMQIC-2640,Qpid Dispatch Console - manual_tests.interconnect.qpid-dispatch-console,4h,Execute all manual test cases with prefix: manual_tests.interconnect.qpid-dispatch-console
