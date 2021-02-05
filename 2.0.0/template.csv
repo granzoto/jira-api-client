@@ -1,0 +1,7 @@
+SUMMARY,DESCRIPTION
+QE - Prepare infra and jobs to consume 2.0.0,Prepare QE infra and jobs.\nSee sub-tasks for complete list of tests to be executed.
+QE - Execute Regression Tests,Regression tests must be executed through the CI and results validated.\nSee sub-tasks for complete list of tests to be executed.
+QE - Manual test execution for Interconnect 2.0.0,Manual test execution.\nSee sub-tasks for complete list of tests to be executed.
+QE - Test development for Interconnect 2.0.0,Placeholder for QE test development sub-tasks.\nSee sub-tasks for complete list of tests to be executed.
+QE - Execute TPS tests for IC 2.0.0,Execute TPS tests for Interconnect and Skupper packages and make sure all tests are passing (or properly waived).
+QE - Documentation testing,Review all Interconnect and Skupper documentation.

@@ -1,0 +1,5 @@
+PARENT_TASK,SUMMARY,ESTIMATE,DESCRIPTION
+JIRAID,Document test cases in Polarion for Skupper Integration Test Suite,2d,Document all test cases for Skupper Integration Test Suite in Polarion.
+JIRAID,Create downstream jobs to run Skupper integration tests against a single OCP cluster,2d,Create new DSL and Pipeline jobs to run skupper integration tests against OCP (current version and current -1)
+JIRAID,Create downstream jobs to run Skupper integration tests against two OCP clusters,2d,Create new DSL and Pipeline jobs to run skupper integration tests against two OCP clusters (one being current version and the other being current -1).
+JIRAID,New CVP job to test Skupper controller image,4d,Create new CVP DSL and Pipeline jobs to run skupper integration tests against a single OCP cluster (current version only).

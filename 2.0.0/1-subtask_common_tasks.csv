@@ -1,0 +1,5 @@
+PARENT_TASK,SUMMARY,ESTIMATE,DESCRIPTION
+JIRAID,Adjust Jobs and Ansible playbooks to use new CDN channel,2d,As part of Interconnect 2.0 release the distribution channels for the RPM packages is going to change.\nWe must update our jobs and playbooks to use the new channels accordingly.
+JIRAID,Create mrgrepo entry for 2.0.0,2h,Run mrgjenkins job to create the mrgrepo entry.\nSee the document below for further reference: https://docs.google.com/document/d/1dIjdSdU0sIZ7QVQLcgysiIwm-BJJZ83mePyykbm11Dw/edit
+JIRAID,Define a common class at amq-ci to define cluster urls,8h,Improve amq-ci DSL jobs for Interconnect so that cluster information is defined at a single class\nmaking it easier to maintain.
+JIRAID,Adjust job dsl on amq-ci to consume latest image tag 2.0,4h,Adjust job dsl on amq-ci to consume latest image tag 2.0

@@ -1,0 +1,3 @@
+PARENT_TASK,SUMMARY,ESTIMATE,DESCRIPTION
+JIRAID,Qpid Dispatch Console - manual_tests.interconnect.qpid-dispatch-console,4h,Execute all manual test cases with prefix: manual_tests.interconnect.qpid-dispatch-console
+JIRAID,Skupper Console Manual tests,8h,Execute all manual tests for the Skupper console (See test cases in Polarion for more info).
