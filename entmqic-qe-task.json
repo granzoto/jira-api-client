@@ -1,0 +1,20 @@
+{
+    "fields": {
+       "project":
+       {
+          "key": "ENTMQIC"
+       },
+       "summary": "${SUMMARY}",
+       "description": "${EDITBOX_DESCRIPTION}",
+       "assignee": {
+          "name": ""
+       },
+       "issuetype": {
+          "name": "Task"
+       },
+       "labels": [
+         "QE"
+       ]
+   }
+}
+
