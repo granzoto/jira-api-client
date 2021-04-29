@@ -1,0 +1,3 @@
+PARENT_TASK,SUMMARY,DESCRIPTION
+ENTMQIC-2795,Long running stability test scenario using TCP Adaptor,Define a long running scenario that generates loads to test stability of TCP Adaptor.
+ENTMQIC-2795,Performance tests scenarios for TCP Adaptor,Define and implement performance tests using TCP Adaptor.

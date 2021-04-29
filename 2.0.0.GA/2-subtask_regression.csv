@@ -1,0 +1,7 @@
+PARENT_TASK,SUMMARY,ESTIMATE,DESCRIPTION
+JIRAID,System tests execution,2d,Execute system tests against:\n* RHEL 7 x86_64\n* RHEL 8 x86_64
+JIRAID,QDR Image Tests,1d,Execute QDR Image Tests against supported OCP versions (current and current -1).
+JIRAID,Qpid Dispatch Integration Tests,2d,Execute system tests against:\n* RHEL 7 x86_64\n* RHEL 8 x86_64
+JIRAID,Qpid Dispatch Openshift Smoke Tests,2d,Execute Qpid Dispatch Openshift Smoke Tests against supported OCP versions (current and current -1).
+JIRAID,Qpid Dispatch Openshift Interoperability Smoke Tests,1d,Execute Qpid Dispatch Openshift Smoke Tests against different Interconnect versions in parallel (current and current -1).
+JIRAID,Skupper Integration Test Suite,8h,Verify that the Integration tests are passing on both OpenShift clusters (current and current -1).
