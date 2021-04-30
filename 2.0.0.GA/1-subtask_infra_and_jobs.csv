@@ -1,3 +1,3 @@
 PARENT_TASK,SUMMARY,ESTIMATE,DESCRIPTION
 JIRAID,Create mrgrepo entry for 2.0.0.GA errata,2h,Run mrgjenkins job to create the mrgrepo entry.\nSee the document below for further reference: https://docs.google.com/document/d/1dIjdSdU0sIZ7QVQLcgysiIwm-BJJZ83mePyykbm11Dw/edit
-JIRAID,Adjust job dsl on amq-ci to consume latest image tag 2.0.0,4h,Adjust job dsl on amq-ci to consume latest image tag 2.0.0.\nImage names should have been changed as well, since in the previous release they were placed under interconnect-dev-preview.
+JIRAID,Adjust job dsl on amq-ci to consume latest image tag 2.0.0,4h,Adjust job dsl on amq-ci to consume latest image tag 2.0.0.\nImage names should have been changed as well since in the previous release they were placed under interconnect-dev-preview.
