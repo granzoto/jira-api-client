@@ -1,0 +1,5 @@
+SUMMARY,DESCRIPTION
+QE - Prepare infra and jobs,Prepare QE infra and jobs.\nSee sub-tasks for complete list of tests to be executed.
+QE - Execute Regression Tests,Regression tests must be executed through the CI and results validated.\nSee sub-tasks for complete list of tests to be executed.
+QE - Manual test execution,Manual test execution.\nSee sub-tasks for complete list of tests to be executed.
+QE - Execute TPS tests,Execute TPS tests for Interconnect and Skupper packages and make sure all tests are passing (or properly waived).

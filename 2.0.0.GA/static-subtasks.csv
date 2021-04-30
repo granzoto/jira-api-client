@@ -1,0 +1,3 @@
+PARENT_TASK,SUMMARY,ESTIMATE,DESCRIPTION
+ENTMQIC-2755,Verify links in portal pages,Verify broken links in portal pages
+ENTMQIC-2741,Modify system test pipeline to run based on RPM and not using the SRPM,Modify system test pipeline to run based on the RPM and not using the SRPM
