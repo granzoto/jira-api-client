@@ -24,5 +24,5 @@ echo Creating Epic Tasks
 read -p "press enter to continue"
 
 echo Creating Static Sub-Tasks
-../jira-batch.sh static-subtasks.json subtasks.json | tee static-subtasks.log
+../jira-batch.sh static-subtasks.csv subtasks.json | tee static-subtasks.log
 read -p "press enter to continue"
