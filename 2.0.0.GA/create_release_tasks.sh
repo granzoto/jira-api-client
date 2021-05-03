@@ -3,6 +3,8 @@
 echo "Creating Tasks"
 ../jira-batch.sh tasks.csv tasks.json | tee tasks.log
 
+read -p "press enter to continue"
+
 i=0
 for LINK in `cat tasks.log`; do
     [[ ! ${LINK} =~ ENTMQIC ]] && continue
@@ -14,10 +16,13 @@ for LINK in `cat tasks.log`; do
     sed -i "s/JIRAID/${JIRAID}/g" $CSV
     ../jira-batch.sh $CSV subtasks.json | tee $CSV.log
     echo
+    read -p "press enter to continue"
 done
 
 echo Creating Epic Tasks
 ../jira-batch.sh static-epictasks.csv epictasks.json | tee epictasks.log
+read -p "press enter to continue"
 
 echo Creating Static Sub-Tasks
 ../jira-batch.sh static-subtasks.json subtasks.json | tee static-subtasks.log
+read -p "press enter to continue"

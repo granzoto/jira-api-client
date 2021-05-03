@@ -68,6 +68,7 @@ function create_issue() {
 	   -D- \
        ${AUTH_ARG} \
 	   -X POST \
+       --compressed \
 	   --data @${TMPDIR}/data.tmp.$$ \
 	   --header \\\"Content-Type: application/json\\\" \
 	   --url \\\"https://${JIRA_HOST}/rest/api/2/issue/\\\" | sh > ${TMPDIR}/result.tmp.$$

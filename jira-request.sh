@@ -108,12 +108,14 @@ function create_issue() {
 	   -D- \
        ${AUTH_ARG} \
 	   -X POST \
+	   --compressed \
 	   --data @${TMPDIR}/data.tmp.$$ \
 	   --header \\\"Content-Type: application/json\\\" \
 	   --url \\\"https://${JIRA_HOST}/rest/api/2/issue/\\\" | sh > ${TMPDIR}/result.tmp.$$
 	   #--url \\\"https://${JIRA_HOST}/rest/api/2/issue/\\\"
 
-    RESULT_JIRA=`egrep '(^HTTP\/1\.1 |{"id":")' ${TMPDIR}/result.tmp.$$ | sed -re 's/HTTP\/1\.1 ([0-9]+) .*/\1/g;s/\{"id".*"key":"([^\"]+)".*/\1/g'`
+    #HTTP/2 201
+    RESULT_JIRA=`egrep '(^HTTP\/2 |{"id":")' ${TMPDIR}/result.tmp.$$ | sed -re 's/HTTP\/2 ([0-9]+) .*/\1/g;s/\{"id".*"key":"([^\"]+)".*/\1/g'`
     echo "${RESULT_JIRA}" | while read -r CODE; do
         read -r JIRA
         if [[ ${CODE} != "201" ]]; then
