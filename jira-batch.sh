@@ -1,6 +1,6 @@
 #!/bin/bash
 
-. read_var.sh
+. `dirname $(readlink -f $0)`/read_var.sh
 
 JIRA_HOST="issues.redhat.com"
 #JIRA_USER=""
