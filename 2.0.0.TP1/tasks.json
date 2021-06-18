@@ -5,10 +5,9 @@
           "key": "ENTMQIC"
        },
        "summary": "${SUMMARY}",
-       "customfield_12311140": "${PARENT_TASK}",
        "description": "${DESCRIPTION}",
        "customfield_12311240": {
-         "name": "2.0.0.GA"
+         "name": "2.0.0.TP1"
        },
        "assignee": {
           "name": ""
@@ -24,4 +23,3 @@
        }
    }
 }
-

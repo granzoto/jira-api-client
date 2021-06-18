@@ -1,0 +1,27 @@
+{
+    "fields": {
+       "project":
+       {
+          "key": "ENTMQIC"
+       },
+       "summary": "${SUMMARY}",
+       "customfield_12311140": "${PARENT_TASK}",
+       "description": "${DESCRIPTION}",
+       "customfield_12311240": {
+         "name": "2.0.0.TP1"
+       },
+       "assignee": {
+          "name": ""
+       },
+       "issuetype": {
+          "name": "Task"
+       },
+       "labels": [
+         "QE"
+       ],
+       "security": {
+          "id": "10291"
+       }
+   }
+}
+

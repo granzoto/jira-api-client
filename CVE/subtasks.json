@@ -4,22 +4,23 @@
        {
           "key": "ENTMQIC"
        },
+       "parent":
+       {
+          "key": "${PARENT_TASK}"
+       },
        "summary": "${SUMMARY}",
        "description": "${DESCRIPTION}",
-       "customfield_12311240": {
-         "name": "2.0.0.GA"
-       },
        "assignee": {
           "name": ""
        },
        "issuetype": {
-          "name": "Task"
+          "name": "Sub-task"
        },
        "labels": [
          "QE"
        ],
-       "security": {
-          "id": "10291"
+       "timetracking": {
+          "originalEstimate": "${ESTIMATE}"
        }
    }
 }

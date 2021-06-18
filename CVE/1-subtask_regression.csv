@@ -1,0 +1,4 @@
+PARENT_TASK,SUMMARY,ESTIMATE,DESCRIPTION
+JIRAID,QDR Image Tests,1d,Execute QDR Image Tests against supported OCP versions (current and current -1).
+JIRAID,Qpid Dispatch Integration Tests,2d,Execute system tests against:\n* RHEL 7 x86_64\n* RHEL 8 x86_64
+JIRAID,Qpid Dispatch Openshift Smoke Tests,2d,Execute Qpid Dispatch Openshift Smoke Tests against supported OCP versions (current and current -1).

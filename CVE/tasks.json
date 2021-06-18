@@ -1,0 +1,22 @@
+{
+    "fields": {
+       "project":
+       {
+          "key": "ENTMQIC"
+       },
+       "summary": "${SUMMARY}",
+       "description": "${DESCRIPTION}",
+       "assignee": {
+          "name": ""
+       },
+       "issuetype": {
+          "name": "Task"
+       },
+       "labels": [
+         "QE"
+       ],
+       "security": {
+          "id": "10291"
+       }
+   }
+}
