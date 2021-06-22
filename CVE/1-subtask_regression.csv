@@ -1,4 +1,7 @@
 PARENT_TASK,SUMMARY,ESTIMATE,DESCRIPTION
 JIRAID,QDR Image Tests,1d,Execute QDR Image Tests against supported OCP versions (current and current -1).
-JIRAID,Qpid Dispatch Integration Tests,2d,Execute system tests against:\n* RHEL 7 x86_64\n* RHEL 8 x86_64
+JIRAID,Qpid Dispatch Integration Tests,2d,Execute QpdiDispatch Integration Tests for docker test run.
 JIRAID,Qpid Dispatch Openshift Smoke Tests,2d,Execute Qpid Dispatch Openshift Smoke Tests against supported OCP versions (current and current -1).
+JIRAID,QDR Operator E2E Tests,2h,Run the Operator End 2 End tests for OCP current, current-1 and 3.11.
+JIRAID,Qpid Dispatch Registry Validation Stage,2h,Validate if the images pushed to stage registry have the correct tags.
+JIRAID,Qpid Dispatch Registry Validation Prod,2h,Validate if the images pushed to Live registry have the correct tags.
