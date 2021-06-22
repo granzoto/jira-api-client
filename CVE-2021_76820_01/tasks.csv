@@ -1,0 +1,2 @@
+SUMMARY,DESCRIPTION
+QE - Execute Regression Tests for CVE,Regression tests must be executed through the CI and results validated.\nSee sub-tasks for complete list of tests to be executed.
