@@ -1,0 +1,26 @@
+{
+    "fields": {
+       "project":
+       {
+          "key": "ENTMQIC"
+       },
+       "summary": "${SUMMARY}",
+       "description": "${DESCRIPTION}",
+       "customfield_12311240": {
+         "name": "1.10.1.GA"
+       },
+       "assignee": {
+          "name": ""
+       },
+       "security": {
+          "id": "10291"
+       },
+       "issuetype": {
+          "name": "Task"
+       },
+       "labels": [
+         "QE"
+       ]
+   }
+}
+
