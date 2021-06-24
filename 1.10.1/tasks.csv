@@ -1,0 +1,5 @@
+SUMMARY,DESCRIPTION
+QE - Prepare infra and jobs to consume 1.10.1,Prepare QE infra and jobs.\nSee sub-tasks for complete list of tests to be executed.
+QE - Execute Regression Tests,Regression tests must be executed through the CI and results validated.\nSee sub-tasks for complete list of tests to be executed.
+QE - Manual test execution for Interconnect 1.10.1,Manual test execution.\nSee sub-tasks for complete list of tests to be executed.
+QE - Execute TPS tests for AMQ IC 1.10.1,Execute TPS tests and make sure all tests are passing (or properly waived).
