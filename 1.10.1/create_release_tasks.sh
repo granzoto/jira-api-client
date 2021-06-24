@@ -1,4 +1,9 @@
-../jira-batch.sh template.csv template.json | tee tasks.log
+[[ -f tasks.log ]] && echo 'Exiting as tasks.log already exists (tasks already created) - Verify all log files' && exit 1
+
+echo "Creating Tasks"
+../jira-batch.sh tasks.csv tasks.json | tee tasks.log
+
+read -p "press enter to continue"
 
 i=0
 for LINK in `cat tasks.log`; do
@@ -9,6 +14,7 @@ for LINK in `cat tasks.log`; do
     [[ ! -f "$CSV" ]] && continue
     echo Processing subtasks for $CSV
     sed -i "s/JIRAID/${JIRAID}/g" $CSV
-    ../jira-batch.sh $CSV subtask.json | tee $CSV.log
+    ../jira-batch.sh $CSV subtasks.json | tee $CSV.log
     echo
+    read -p "press enter to continue"
 done
