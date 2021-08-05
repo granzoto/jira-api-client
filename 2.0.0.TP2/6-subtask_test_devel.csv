@@ -1,0 +1,11 @@
+PARENT_TASK,SUMMARY,ESTIMATE,DESCRIPTION
+ENTMQIC-3010,Create integration test to validate the Support for nodeport as ingress,8d,Create integration test to validate the Support for nodeport as ingress.
+ENTMQIC-3010,Create integration test to validate token management via CLI,4d,Create integration test to validate token management via CLI.
+ENTMQIC-3010,Create Gateway basic integration test,8d,Create Gateway basic integration test.
+ENTMQIC-3010,Update RHEL7 image to enable systemclt as user level,8d,Update RHEL7 image to enable systemclt as user level.
+ENTMQIC-3010,Create TCP Performance Test using iPerf3,3d,Create TCP Performance Test using iPerf3.
+ENTMQIC-3010,Adjust DSL and pipelines to provide nodeport test information,8d,Adjust DSL and pipelines to provide nodeport test information\nWe must run the test against OCP (current version and current -1).
+ENTMQIC-3010,Adjust DSL and pipelines to support Token Management tests via CLI,4d,Adjust DSL and pipelines to support Token Management tests via CLI\nWe must run the test against OCP (current version and current -1) and RHEL7 and RHEL8.
+ENTMQIC-3010,Adjust DSL and pipelines to support Gateway Basic Integration test,8d,Adjust DSL and pipelines to support Gateway Basic Integration test\nWe must run the test against OCP (current version and current -1) and RHEL7 and RHEL8.
+ENTMQIC-3010,Adjust DSL and pipelines to support TCP Performance Test using iPerf3,3d,Create TCP Performance Test using iPerf3\nWe must run the test against OCP (current version and current -1).
+ENTMQIC-3010,Document test cases in Polarion for new Skupper Tests,2d,Document all test cases for new Skupper Tests : Nodeport - CLI token management - Gateway and iPerf3 performance.

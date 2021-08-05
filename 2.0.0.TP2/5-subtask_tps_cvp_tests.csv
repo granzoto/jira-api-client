@@ -1,0 +1,3 @@
+PARENT_TASK,SUMMARY,ESTIMATE,DESCRIPTION
+ENTMQIC-3009,Execute TPS tests for Interconnect and Skupper packages,4h,Ensure all TPS tests for Interconnect and Skupper packages are passing (or properly waived).
+ENTMQIC-3009,Execute CVP jobs for images in the 2.0.0 TP2 Erratas,4h,Ensure all images are tested by CVP and has its status as GREEN in greenwave Errata tab.

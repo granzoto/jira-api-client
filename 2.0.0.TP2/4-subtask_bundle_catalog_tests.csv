@@ -1,0 +1,3 @@
+PARENT_TASK,SUMMARY,ESTIMATE,DESCRIPTION
+ENTMQIC-3008,Bundle Image and Catalog testing,4h,Verify that the produced bundle image works on both OpenShift clusters (current and current -1).
+ENTMQIC-3008,Bundle Image and Catalog upgrade testing,4h,Verify that users can upgrade from previous version to this current one.\nEnsure it works on both OpenShift clusters (current and current -1).
