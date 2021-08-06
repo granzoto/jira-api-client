@@ -1,0 +1,4 @@
+PARENT_TASK,SUMMARY,ESTIMATE,DESCRIPTION
+ENTMQIC-2798,Implement a CockroachDB integration test using headless service,40h,Implement a Skupper integration test to run CockroachDB using headless service.
+ENTMQIC-2755,Verify links in portal pages,2h,Verify broken links in portal pages
+ENTMQIC-2741,Modify system test pipeline to run based on RPM and not using the SRPM,8h,Modify system test pipeline to run based on the RPM and not using the SRPM

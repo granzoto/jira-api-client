@@ -1,0 +1,4 @@
+PARENT_TASK,SUMMARY,ESTIMATE,DESCRIPTION
+ENTMQIC-3005,Create mrgrepo entry for 2.0.0.TP2 errata,2h,Run mrgjenkins job to create the mrgrepo entry.\nSee the document below for further reference: https://docs.google.com/document/d/1dIjdSdU0sIZ7QVQLcgysiIwm-BJJZ83mePyykbm11Dw/edit
+ENTMQIC-3005,Adjust job dsl on amq-ci to consume latest image tag 2.0.0 TP2,4h,Adjust job dsl on amq-ci to consume latest image for 2.0.0 TP2
+ENTMQIC-3005,Clean up old and broken VMs in PSI,4h,Go through VMs and remove those that were left behind and those in error state

@@ -1,0 +1,8 @@
+SUMMARY,DESCRIPTION
+QE - Prepare infra and jobs,Prepare QE infra and jobs.\nSee sub-tasks for complete list of tests to be executed.
+QE - Execute Regression Tests,Regression tests must be executed through the CI and results validated.\nSee sub-tasks for complete list of tests to be executed.
+QE - Manual test execution,Manual test execution.\nSee sub-tasks for complete list of tests to be executed.
+QE - Execute Tests for Operator Bundle,Tests for Operator Bundle must be executed through the CI and results validated.\nSee sub-tasks for complete list of tests to be executed.
+QE - Execute TPS and CVP greenwave validation,Execute TPS and CVP tests for Interconnect and Skupper packages\nSee sub-tasks for complete list of tests to be executed.
+QE - Test development for Interconnect 2.0.0,Placeholder for QE test development sub-tasks.\nSee sub-tasks for complete list of tests to be executed.
+QE - Documentation testing,Review all Interconnect and Skupper documentation.
