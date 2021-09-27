@@ -1,0 +1,3 @@
+PARENT_TASK,SUMMARY,ESTIMATE,DESCRIPTION
+ENTMQIC-3179,Prepare OCP clusters versions 4.6, 4.7, 4.8 and 4.9 to Operator Bundle tests,8h,Prepare OCP clusters version 4.6, 4.7, 4.8 and 4.9 to Operator Bundle tests
+ENTMQIC-3179,Adjust job dsl on amq-ci to consume latest image tag 1.10-5,2h,Adjust job dsl on amq-ci to consume latest Operator Bundle 1.10-5

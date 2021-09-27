@@ -1,0 +1,5 @@
+SUMMARY,DESCRIPTION
+QE - Prepare infra and jobs to consume Operator Bundle 1.10.5,Prepare QE infra and jobs.\nSee sub-tasks for complete list of tests to be executed.
+QE - Execute Operator Bundle Tests,Operator Bundle tests must be executed through the CI and results validated.\nFor each cluster version, also run the Smoke Tests and Operator e2e tests
+QE - Manual test - cluster upgrade for Interconnect Operator Bundle 1.10.5,Manual test - cluster upgrade from OCP48 to OCP49 for Interconnect Operator bundle
+QE - Review Docs changes for Interconnect Operator Bundle 1.10.5,Review Docs changes for cluster upgrade to 4.9
