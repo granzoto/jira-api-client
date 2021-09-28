@@ -1,0 +1,4 @@
+PARENT_TASK,SUMMARY,ESTIMATE,DESCRIPTION
+ENTMQIC-3180,Bundle Image and Catalog testing,4h,Verify that the produced bundle image works in all OpenShift clusters (4.6, 4.7, 4.8 and 4.9).
+ENTMQIC-3180,Qpid Dispatch Openshift Smoke Tests,2d,Execute Qpid Dispatch Openshift Smoke Tests against supported versions (4.6, 4.7, 4.8 and 4.9).
+ENTMQIC-3180,QDR Operator E2E Tests,1d,Execute QDR Operator E2E Tests against supported versions (4.6, 4.7, 4.8 and 4.9).

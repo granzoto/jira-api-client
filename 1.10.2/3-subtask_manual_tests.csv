@@ -1,0 +1,3 @@
+PARENT_TASK,SUMMARY,ESTIMATE,DESCRIPTION
+ENTMQIC-3181,Manual test - cluster upgrade for Interconnect Operator Bundle 1.10.5,4h,Manual test - cluster upgrade from OCP48 to OCP49 for Interconnect Operator bundle\nWithout CertManager installed
+ENTMQIC-3181,Manual test - cluster upgrade for Interconnect Operator Bundle 1.10.5 CertManager,4h,Manual test - cluster upgrade from OCP48 to OCP49 for Interconnect Operator bundle\nWith CertManager installed
