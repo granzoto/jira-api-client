@@ -1,0 +1,4 @@
+PARENT_TASK,SUMMARY,ESTIMATE,DESCRIPTION
+JIRAID,Create mrgrepo entry for 2.0.0.TP3 errata,2h,Run mrgjenkins job to create the mrgrepo entry.\nSee the document below for further reference: https://docs.google.com/document/d/1dIjdSdU0sIZ7QVQLcgysiIwm-BJJZ83mePyykbm11Dw/edit
+JIRAID,Adjust job dsl on amq-ci to consume latest image tag 2.0.0 TP3,4h,Adjust job dsl on amq-ci to consume latest image for 2.0.0 TP3
+JIRAID,Clean up old and broken VMs in PSI,4h,Go through VMs and remove those that were left behind and those in error state

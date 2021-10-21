@@ -1,0 +1,4 @@
+PARENT_TASK,SUMMARY,ESTIMATE,DESCRIPTION
+JIRAID,Bundle Image and Catalog testing,4h,Verify that the produced bundle image works in all OpenShift clusters (46 47 48 and 49).
+JIRAID,Bundle Image and Catalog upgrade testing,4h,Verify that users can upgrade from previous version to this current one.\nEnsure it works in all OpenShift clusters (46 47 48 and 49).
+JIRAID,Bundle Image and Cluster upgrade testing,8h,Verify that users can upgrade his cluster from 4.8 to 4.9 after installing the provided Bundle Operator.
