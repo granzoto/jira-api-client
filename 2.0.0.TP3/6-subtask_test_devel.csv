@@ -3,5 +3,6 @@ JIRAID,Create integration test to validate all console server endpoints,8d,Creat
 JIRAID,Create integration test to validate multi-port services,8d,Create integration test to validate multi-port services.
 JIRAID,Create integration test to validate service label sync,4d,Create integration test to validate service label sync.
 JIRAID,Create Gateway advanced integration test,8d,Create Gateway advanced integration test to validate Docker and Podman console types.
+JIRAID,Document how to test the new console features like token, links and services,8d,Document how to test the new console features like token, links and services.
 JIRAID,Adjust DSL and pipelines to cover the new testes developed to TP3,8h,Adjust DSL and pipelines to provide necessary parameters for new tests.
 JIRAID,Document test cases in Polarion for new Skupper Tests,2d,Document all test cases for new Skupper Tests : multi-port - gateway types - service label sync - server console
